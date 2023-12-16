@@ -1,0 +1,28 @@
+:root {
+    --primary: #006ADE;
+    --secondary: rgb(0,144,190,0.735);
+
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+    color: white;
+}
+
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+
+body {
+    background-color: var(--secondary);
+    padding: 0px;
+    margin: 0px;
+}
+
+.row {
+    margin-right: 0px;
+}
+
+.form-control {
+    width: auto;
+}

@@ -156,6 +156,7 @@ body {
 
 #skill-card img {
     object-fit: fill;
+    margin-top: 20px;
 }
 
 .about-contact-row {

@@ -1,26 +1,105 @@
 :root {
-    --primary: #006ADE;
-    --secondary: rgb(0,144,190,0.735);
+    --navbar: #809BCE;
+    --primary: #95B8D1;
+    --primary-font-family: 'Urbanist';
+    --primary-font-color: #FFFFFF;
+    --primary-font-weight: bold;
+    --secondary: #FFFAFF;
+    --secondary-font-color: #1E1B18;
+    --third: #3E92CC;
 
 }
 
 .bg-primary {
     background-color: var(--primary) !important;
-    color: white;
 }
 
 .bg-secondary {
     background-color: var(--secondary) !important;
 }
 
+.bg-body-tertiary {
+    background-color: var(--navbar) !important;
+}
+
 body {
-    background-color: var(--secondary);
     padding: 0px;
     margin: 0px;
+    font-family: var(--primary-font-family);
+}
+
+#navbarNav {
+    padding: 10px;
+    justify-content: right;
+}
+
+.navbar-nav {
+    gap: 50px;
+}
+
+.navbar-brand, .nav-link {
+    color: var(--primary-font-color);
+    font-size: 25px;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #EAC4D5;
 }
 
 .row {
     margin-right: 0px;
+}
+
+.display-4 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.jumbotron-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 750px;
+    border-bottom: solid black;
+    text-align: center;
+    background-color: var(--primary);
+    color: var(--primary-font-color);
+    font-family: var(--primary-font-family);
+    font-weight: var(--primary-font-weight);
+}
+
+#jumbotron-image {
+    clip-path: circle();
+    height: 200px;
+    width: 200px;
+}
+
+.btn {
+    background-color: #809BCE;
+    border-color: #809BCE;
+}
+
+.btn:hover {
+    background-color: #809BCE;
+    border-color: #809BCE;
+    color: #EAC4D5;
+}
+
+.work-row {
+    height: 600px;
+    border-bottom: solid black;
+    background-color: var(--secondary);
+}
+
+.skills-row {
+    height: 600px;
+    border-bottom: solid black;
+    background-color: var(--third);
+}
+
+.about-contact-row {
+    height: 600px;
+    border-bottom: solid black;
 }
 
 .form-control {

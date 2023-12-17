@@ -4,7 +4,7 @@
     --primary-font-family: 'Urbanist';
     --primary-font-color: #FFFFFF;
     --primary-font-weight: bold;
-    --secondary: #FFFAFF;
+    --secondary: #B3D0E4;
     --secondary-font-color: #1E1B18;
     --third: #3E92CC;
 
@@ -28,6 +28,10 @@ body {
     font-family: var(--primary-font-family);
 }
 
+.navbar {
+    border-bottom: solid #EAC4D5;
+}
+
 #navbarNav {
     padding: 10px;
     justify-content: right;
@@ -38,16 +42,22 @@ body {
 }
 
 .navbar-brand, .nav-link {
-    color: var(--primary-font-color);
+    color: #EAC4D5;
     font-size: 25px;
 }
 
 .navbar-brand:hover, .nav-link:hover {
+    color: #FFFFFF;
+}
+
+.nav-span {
     color: #EAC4D5;
 }
 
 .row {
     margin-right: 0px;
+    padding-left: 25px;
+    padding-right: 15px;
 }
 
 .display-4 {
@@ -60,7 +70,7 @@ body {
     flex-direction: row;
     align-items: center;
     height: 750px;
-    border-bottom: solid black;
+    border-bottom: solid #EAC4D5;
     text-align: center;
     background-color: var(--primary);
     color: var(--primary-font-color);
@@ -77,6 +87,7 @@ body {
 .btn {
     background-color: #809BCE;
     border-color: #809BCE;
+    font-size: 26px;
 }
 
 .btn:hover {
@@ -85,21 +96,66 @@ body {
     color: #EAC4D5;
 }
 
+.card {
+    width: auto;
+}
+
+.card img {
+    object-fit: cover;
+    height: 300px;
+}
+
 .work-row {
-    height: 600px;
-    border-bottom: solid black;
-    background-color: var(--secondary);
+    height: auto;
+    border-bottom: solid #EAC4D5;
+    background-color: #809BCE;
+    color: var(--primary-font-color);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#work-card {
+    background-color: var(--primary);
+    color: var(--primary-font-color);
+}
+
+.text-muted {
+    color: var(--primary-font-color) !important;
+}
+
+.text-muted:hover {
+    color: #EAC4D5 !important;
 }
 
 .skills-row {
-    height: 600px;
-    border-bottom: solid black;
-    background-color: var(--third);
+    height: auto;
+    border-bottom: solid #EAC4D5;
+    background-color: var(--primary);
+    color: var(--primary-font-color);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#skill-card {
+    background-color: #809BCE;
+    color: var(--primary-font-color);
 }
 
 .about-contact-row {
-    height: 600px;
-    border-bottom: solid black;
+    height: auto;
+    border-bottom: solid #EAC4D5;
+    background-color: #809BCE;
+    color: var(--primary-font-color);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about-card, #contact-card {
+    background-color: var(--primary);
+    color: var(--primary-font-color);
 }
 
 .form-control {

@@ -10,6 +10,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .bg-primary {
     background-color: var(--primary) !important;
 }
@@ -52,6 +56,12 @@ body {
 
 .nav-span {
     color: #EAC4D5;
+}
+
+.navbar-toggler {
+    color: #EAC4D5;
+    background-color: #EAC4D5;
+    border: #EAC4D5;
 }
 
 .row {
@@ -141,6 +151,10 @@ body {
 #skill-card {
     background-color: #809BCE;
     color: var(--primary-font-color);
+}
+
+#skill-card img {
+    object-fit: fill;
 }
 
 .about-contact-row {

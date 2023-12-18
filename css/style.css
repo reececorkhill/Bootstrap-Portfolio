@@ -1,81 +1,87 @@
 :root {
-    --primary-font-family: 'Urbanist';
-    --primary-font-weight: bold;
-    --primary-font-color: #FFFFFF; /* Content Font Color */
-    --primary-color: #0090BE; /* Navbar and Sections */
-    --secondary-color: #00ADE6; /* Section Background Color */
-    --nav-text-color: #FFFFFF;
-    --border-color: #FFFFFF;
+    --primary-font-family: 'Urbanist';      /* Primary Font Family */
+    --primary-font-weight: bold;            /* Primary Font Weight */
+    --primary-font-color: #FFFFFF;        /* Content Font Color */
+    --primary-color: #0090BE;             /* Navbar and Sections */
+    --secondary-color: #00ADE6;           /* Section Background Color */
+    --nav-text-color: #FFFFFF;            /* Navbar Text Color */
+    --border-color: #FFFFFF;              /* Section Border Color */
 }
 
+/* Smooth scrolling for the entire document. */
 html {
     scroll-behavior: smooth;
 }
 
+/* Sets the background color of elements with the class .bg-primary */
 .bg-primary {
     background-color: var(--secondary-color) !important;
 }
 
+/* Sets the background color of elements with the class .bg-body-tertiary */
 .bg-body-tertiary {
     background-color: var(--primary-color) !important;
 }
 
+/* Applies font-family to the body */
 body {
-    padding: 0px;
-    margin: 0px;
     font-family: var(--primary-font-family);
 }
 
+/* Adds a solid border at the bottom of elements with the class .navbar */
 .navbar {
     border-bottom: solid var(--border-color);
 }
 
+/* Aligns the content inside the #navbarNav to the right */
 #navbarNav {
-    padding: 10px;
     justify-content: right;
 }
 
+/* Adds a gap between items in the navbar */
 .navbar-nav {
     gap: 50px;
 }
 
+/* Sets the color and font size for .navbar-brand and .nav-link */
 .navbar-brand, .nav-link {
     color: var(--nav-text-color);
     font-size: 25px;
 }
 
+/* Changes color and adds a hover effect for .navbar-brand and .nav-link */
 .navbar-brand:hover, .nav-link:hover {
     color: var(--primary-font-color);
     text-shadow: 0px 0px 12px var(--primary-font-color);
 }
 
+/* Sets the color for elements with the class .nav-span */
 .nav-span {
     color: var(--nav-text-color);
 }
 
+/* Sets styles for the navbar-toggler */
 .navbar-toggler {
     color: var(--primary-color);
     background-color: var(--secondary-color);
     border: var(--secondary-color);
 }
 
+/* Styles for the navbar-toggler on hover */
 .navbar-toggler:hover {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     box-shadow: 0px 0px 16px 5px #FFFFFF;
 }
 
+/* Adjusts the margin and padding for elements with the class .row */
 .row {
     margin-right: 0px;
     padding-left: 25px;
     padding-right: 15px;
 }
 
-.display-4 {
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
+/* Styles for the .jumbotron-row */
 .jumbotron-row {
     display: flex;
     flex-direction: row;
@@ -89,107 +95,118 @@ body {
     font-weight: var(--primary-font-weight);
 }
 
+/* Styles for the #jumbotron-image */
 #jumbotron-image {
     clip-path: circle();
     height: 200px;
     width: 200px;
 }
 
+/* Styles for buttons with the .btn class */
 .btn {
     background-color: var(--primary-color);
     border-color: var(--secondary-color);
     font-size: 26px;
 }
 
+/* Button styles on hover */
 .btn:hover {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     box-shadow: 0px 0px 16px 5px #FFFFFF;
 }
 
+/* Styles for elements with the class .card */
 .card {
     width: auto;
 }
 
+/* Styles for images within .card elements */
 .card img {
     object-fit: cover;
     height: 300px;
 }
 
+/* Styles for the .work-row section */
 .work-row {
     height: auto;
     border-bottom: solid var(--border-color);
     background-color: var(--primary-color);
     color: var(--primary-font-color);
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
+/* Styles for the #work-card section */
 #work-card {
     background-color: var(--secondary-color);
     color: var(--primary-font-color);
 }
 
+/* Hover styles for the #work-card section */
 #work-card:hover {
     box-shadow: 0px 0px 16px 5px #FFFFFF;
 }
 
+/* Styles for elements with the class .text-muted */
 .text-muted {
     color: var(--primary-font-color) !important;
     font-size: 20px;
 }
 
+/* Hover styles for elements with the class .text-muted */
 .text-muted:hover {
     color: var(--primary-font-color);
     text-shadow: 0px 0px 12px var(--primary-font-color);
 }
 
+/* Styles for the .skills-row section */
 .skills-row {
     height: auto;
     border-bottom: solid var(--border-color);
     background-color: var(--secondary-color);
     color: var(--primary-font-color);
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
+/* Styles for the #skill-card section */
 #skill-card {
     background-color: var(--primary-color);
     color: var(--primary-font-color);
 }
 
+/* Styles for images within the #skill-card section */
 #skill-card img {
     object-fit: fill;
-    margin-top: 20px;
 }
 
+/* Styles for the .about-contact-row section */
 .about-contact-row {
     height: auto;
     border-bottom: solid var(--border-color);
     background-color: var(--primary-color);
     color: var(--primary-font-color);
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
+/* Styles for the #about-card and #contact-card sections */
 #about-card, #contact-card {
     background-color: var(--secondary-color);
     color: var(--primary-font-color);
 }
 
+/* Styles for elements with the class .contact-list */
 .contact-list {
     list-style-type: none;
     text-align: center;
     font-size: 20px;
 }
 
+/* Styles for list items within .contact-list */
 .contact-list li {
     text-decoration: none;
 }
 
+/* Styles for elements with the class .form-group */
 .form-group {
     display: flex;
     flex-direction: column;
@@ -198,28 +215,28 @@ body {
     padding: 6.9px;
 }
 
+/* Styles for form controls */
 .form-control {
     width: auto;
 }
 
+/* Styles for the .footer-row section */
 .footer-row {
     height: auto;
     border-bottom: solid var(--border-color);
     background-color: var(--secondary-color);
     color: var(--primary-font-color);
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
+/* Styles for the #footer-image section */
 #footer-image {
     background-color: var(--primary-color);
     height: 75px;
     width: 75px;
-    padding: 5px;
-    margin: 25px;
 }
 
+/* Hover styles for the #footer-image section */
 #footer-image:hover {
     box-shadow: 0px 0px 16px 5px #FFFFFF;
 }

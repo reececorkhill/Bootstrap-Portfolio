@@ -5,9 +5,9 @@ The official portfolio of Reece Corkhill, made with Bootstrap.
 
 Being a web developer, it's important to be able to showcase your skills. That's why I've developed my portfolio using Bootstrap.
 
-The aim of this project was to create a new version of my existing portfolio, using Bootstrap to give it a better structure and reduce the amount of styling required to acheive the same functionality. The motivation for doing so was so I could showcase my existing work, but with a new design and modernised feel.
+The aim of this project was to create a new version of my existing portfolio, using Bootstrap to give it a better structure and reduce the amount of styling required to achieve the same functionality. The motivation for doing so was so I could showcase my existing work, but with a new design and modernised feel.
 
-The problem was that, in my previous portfolio which was developed using HTML and CSS only, everything had to be built manually from scratch meaning it took a long time to build what, in today's world would be considered a basic website. The solution to this problem was to re-develop my portfolio and keep the functionality the same, but instead using Bootstrap because this uses pre-built components which massively help to reduce the time it takes to build a site and the overall amount of code needed to achieve the end result.
+The problem was that, in my previous portfolio which was developed using HTML and CSS only, everything had to be built manually from scratch meaning it took a long time to build what, in today's world would be considered a basic website. The solution to this problem was to re-develop my portfolio and keep the functionality the same but instead using Bootstrap because this uses pre-built components which massively help to reduce the time it takes to build a site and the overall amount of code needed to achieve the end result.
 
 ## Table of Contents
 
